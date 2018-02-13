@@ -4,11 +4,11 @@ namespace Claims
 {
     public class ClaimsStorage
     {
-        private readonly Persister<Claim> Persister;
+        private readonly IPersister<Claim> _persister;
         
-        public ClaimsStorage(Persister<Claim> claimPersister)
+        public ClaimsStorage(IPersister<Claim> persister)
         {
-            Persister = claimPersister;
+            _persister = persister;
         }
 
         public string Put(Claim claim)

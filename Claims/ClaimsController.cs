@@ -14,13 +14,13 @@ namespace Claims
             return null;
         }
         
-        // GET /claims/{id}/adjustments
-        public List<Adjustment> GetClaimAdjustments(string id)
+        // GET /claims/{claimId}/adjustments
+        public List<Adjustment> GetClaimAdjustments(string claimId)
         {
             // Given I have just saved a claim
-            // And I have claim's ID
-            // When I do a GET on /claims/{id}/adjustments
-            // Then I should receive a list of Adjustments.
+            // And I have the claim's ID
+            // When I do a GET on /claims/{claimId}/adjustments
+            // Then I should receive a list of adjustments for the claim.
             
             return null;
         }
