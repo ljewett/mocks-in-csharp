@@ -2,7 +2,6 @@ using Xunit;
 
 namespace ClaimsTests
 {
-
     public class ClaimStorageTests
     {
         [Fact]
@@ -11,5 +10,4 @@ namespace ClaimsTests
             Assert.Equal("Foo", "Foo");
         }
     }
-
 }

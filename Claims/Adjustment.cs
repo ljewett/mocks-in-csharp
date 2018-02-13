@@ -2,9 +2,7 @@
 {
     public class Adjustment
     {
-        public string Id {
-            get; private set;
-        }
+        public string Id { get; private set; }
 
         public string ClaimId { get; private set; }
 

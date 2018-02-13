@@ -1,4 +1,5 @@
-namespace Claims {
+namespace Claims
+{
     public class ClaimService
     {
         private readonly ClaimStorage _claimStorage;

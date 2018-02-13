@@ -1,12 +1,10 @@
-namespace Claims {
-    public class Claim {
-        public string Id {
-            get; private set;
-        }
+namespace Claims
+{
+    public class Claim
+    {
+        public string Id { get; private set; }
 
-        public ClaimType Type {
-            get; private set;
-        }
+        public ClaimType Type { get; private set; }
 
         public Claim(string id, ClaimType type)
         {
@@ -15,7 +13,11 @@ namespace Claims {
         }
     }
 
-    public enum ClaimType {
-        Fire, Hail, Flood, Wind
+    public enum ClaimType
+    {
+        Fire,
+        Hail,
+        Flood,
+        Wind
     }
 }
