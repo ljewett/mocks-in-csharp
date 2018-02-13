@@ -4,6 +4,13 @@ namespace Claims
 {
     public class ClaimController
     {
+        private readonly ClaimService _claimService;
+
+        public ClaimController(ClaimService claimService)
+        {
+            _claimService = claimService;
+        }
+
         // POST /claims
         public string SaveClaim(Claim claim)
         {

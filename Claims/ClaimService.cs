@@ -1,6 +1,13 @@
 namespace Claims {
     public class ClaimService
     {
+        private readonly ClaimStorage _claimStorage;
+
+        public ClaimService(ClaimStorage claimStorage)
+        {
+            _claimStorage = claimStorage;
+        }
+
         public string HandleClaimSubmission(Claim claim)
         {
             // Given I have a claim
