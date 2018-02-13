@@ -2,11 +2,11 @@ using ThirdPartyPersistenceEngine;
 
 namespace Claims
 {
-    public class ClaimsStorage
+    public class ClaimStorage
     {
         private readonly IPersister<Claim> _persister;
         
-        public ClaimsStorage(IPersister<Claim> persister)
+        public ClaimStorage(IPersister<Claim> persister)
         {
             _persister = persister;
         }

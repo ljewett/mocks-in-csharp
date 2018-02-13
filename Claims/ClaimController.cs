@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 namespace Claims
 {
-    public class ClaimsController
+    public class ClaimController
     {
         // POST /claims
         public string SaveClaim(Claim claim)

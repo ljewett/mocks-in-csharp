@@ -2,7 +2,7 @@ using Xunit;
 
 namespace ClaimsTests
 {
-    public class ClaimsControllerTests
+    public class ClaimServiceTests
     {
         [Fact]
         public void PassingTest()

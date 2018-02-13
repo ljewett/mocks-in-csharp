@@ -1,5 +1,5 @@
 namespace Claims {
-    public class ClaimsService
+    public class ClaimService
     {
         public string HandleClaimSubmission(Claim claim)
         {
