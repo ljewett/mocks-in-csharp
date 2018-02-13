@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Claims\Claims.csproj" />
+    <ProjectReference Include="..\ThirdPartyPersistenceEngine\ThirdPartyPersistenceEngine.csproj" />
   </ItemGroup>
 
 </Project>
