@@ -8,5 +8,10 @@ namespace Claims
         {
             _claimStorage = claimStorage;
         }
+
+        public Claim GetClaim(string claimId)
+        {
+            return _claimStorage.Get(claimId);
+        }
     }
 }

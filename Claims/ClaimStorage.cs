@@ -11,6 +11,11 @@ namespace Claims
             _persister = persister;
         }
 
+        public Claim Get(string claimId)
+        {
+            return _persister.Get(claimId);
+        }
+        
         public string Put(Claim claim)
         {
             return null;

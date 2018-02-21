@@ -11,6 +11,11 @@ namespace Claims
             _claimService = claimService;
         }
         
+        public Claim GetClaim(string claimID)
+        {
+            return _claimService.GetClaim(claimID);
+        }
+        
         // POST /claims
         public string SaveClaim(Claim claim)
         {
