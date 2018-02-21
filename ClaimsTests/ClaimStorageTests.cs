@@ -1,13 +1,13 @@
-using Xunit;
+using NUnit.Framework;
 
 namespace ClaimsTests
 {
     public class ClaimStorageTests
     {
-        [Fact]
+        [Test]
         public void PassingTest()
         {
-            Assert.Equal("Foo", "Foo");
+            Assert.AreEqual("Foo", "Foo");
         }
     }
 }
